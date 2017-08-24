@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
                         Awesome search view, written in Swift 3, appears search view like Pinterset Search view. You can fully customizable this library
                         DESC
 
-  s.homepage         = 'https://github.com/younatics/YNSearch'
+  s.homepage         = 'https://github.com/ryanmoniz/YNSearch'
   s.screenshots      = 'https://raw.githubusercontent.com/younatics/YNDropDownMenu/master/Images/YNDropDownMenu.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Seungyoun Yi" => "younatics@gmail.com" }
 
-  s.source           = { :git => 'https://github.com/younatics/YNSearch.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ryanmoniz/YNSearch.git', :tag => s.version.to_s }
   s.source_files     = 'YNSearch/*.swift'
   s.resources        = "YNSearch/*.xcassets"
 

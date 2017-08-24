@@ -33,6 +33,10 @@ open class YNSearchTextField: UITextField {
         self.placeholder = "Search libraries what you want"
         self.font = UIFont.systemFont(ofSize: 14)
     }
+    
+    open func setPlaceholder(string:String) {
+       self.placeholder = string
+    }
 }
 
 open class YNSearchTextFieldView: UIView {
