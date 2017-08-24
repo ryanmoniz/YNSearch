@@ -66,4 +66,7 @@ open class YNSearchTextFieldView: UIView {
         self.addSubview(self.cancelButton)
     }
 
+    open func setPlaceholder(string:String) {
+        ynSearchTextField.placeholder = string
+    }
 }
